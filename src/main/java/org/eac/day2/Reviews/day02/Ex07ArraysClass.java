@@ -1,4 +1,4 @@
-package org.eac.day02.Reviews.day02;
+package org.eac.day2.Reviews.day02;
 
 import java.util.Arrays;
 //https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/util/Arrays.html

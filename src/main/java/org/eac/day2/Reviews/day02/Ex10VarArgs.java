@@ -1,4 +1,4 @@
-package org.eac.day02.Reviews.day02;
+package org.eac.day2.Reviews.day02;
 
 public class Ex10VarArgs {
     public static void main(String[] args) {
