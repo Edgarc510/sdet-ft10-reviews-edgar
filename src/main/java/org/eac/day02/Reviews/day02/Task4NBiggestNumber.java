@@ -1,4 +1,4 @@
-package day2;
+package org.eac.day02.Reviews.day02;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -1,4 +1,4 @@
-package org.eac.day1.Reviews;
+package org.eac.day1.Reviews.day01;
 
 public class Ex06Conditional {
     public static void main(String[] args) {

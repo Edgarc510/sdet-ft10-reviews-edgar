@@ -1,4 +1,4 @@
-package org.eac.day1.Reviews;
+package org.eac.day1.Reviews.day01;
 
 public class Task1PalindromeNumber {
 

@@ -1,4 +1,4 @@
-package day2;
+package org.eac.day02.Reviews.day02;
 
 public class Ex05MethodChaining {
 
@@ -14,6 +14,11 @@ public class Ex05MethodChaining {
                 .toLowerCase()
                 .equals("hello")
         );
+
+        System.out.println(s.trim());
+        System.out.println(s.trim().substring(0, s.trim().indexOf(" ")));
+        System.out.println(s.trim().substring(0, s.trim().indexOf(" ")).toLowerCase());
+
 
 
         /*

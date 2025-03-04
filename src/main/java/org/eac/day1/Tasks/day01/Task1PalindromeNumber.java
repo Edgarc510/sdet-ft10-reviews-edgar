@@ -1,4 +1,4 @@
-package org.eac.day1.Tasks;
+package org.eac.day1.Tasks.day01;
 
 public class Task1PalindromeNumber {
 /*

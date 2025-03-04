@@ -1,4 +1,4 @@
-package day2;
+package org.eac.day02.Reviews.day02;
 
 public class Ex08ForEachLoop {
     public static void main(String[] args) {
