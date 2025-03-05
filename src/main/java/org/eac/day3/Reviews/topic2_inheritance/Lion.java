@@ -5,8 +5,18 @@ public class Lion extends Animal{ // Lion is a Animal
     // Lion is the subclass
 
     int maneSize;
-    day3.topic2_inheritance.Home home; // Lion has a Home
+    Home home; // Lion has a Home
 
+    Lion() {
+        home = new Home();  // Initialize home if null
+    }
 
+    @Override
+    public String toString() {
+        return "Lion{" +
+                "maneSize=" + maneSize +
+                ", home=" + home +
+                '}';
+    }
 }
 

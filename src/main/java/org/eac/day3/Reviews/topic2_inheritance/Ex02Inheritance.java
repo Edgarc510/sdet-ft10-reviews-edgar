@@ -9,5 +9,10 @@ public class Ex02Inheritance {
         //Lion is a Animal
         //Lion has a Home
 
+        lion1.home.location = "Zoo";
+        lion1.maneSize = 2;
+
+        System.out.println("lion1 = " + lion1);
+
     }
 }

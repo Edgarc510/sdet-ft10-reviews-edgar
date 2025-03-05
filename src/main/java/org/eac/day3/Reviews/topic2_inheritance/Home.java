@@ -1,5 +1,12 @@
-package day3.topic2_inheritance;
+package org.eac.day3.Reviews.topic2_inheritance;
 
 public class Home {
     String location;
+
+    @Override
+    public String toString() {
+        return "Home{" +
+                "location='" + location + '\'' +
+                '}';
+    }
 }
