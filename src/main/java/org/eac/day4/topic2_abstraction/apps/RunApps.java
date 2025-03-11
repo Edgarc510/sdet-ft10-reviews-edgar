@@ -3,7 +3,7 @@ package org.eac.day4.topic2_abstraction.apps;
 public class RunApps {
     public static void main(String[] args) {
 
-//        App app = new App(); cannot instantiate App
+//        App app = new App(); //cannot instantiate App
         // app.launch() is not possible because we need an object & the method is abstract
 
         Discord discord = new Discord();
@@ -11,15 +11,15 @@ public class RunApps {
         Instagram instagram = new Instagram();
         instagram.launch();
 
-        System.out.println(Stories.lengthLimit);
-        System.out.println(instagram.lengthLimit);
+        System.out.println(Stories.LENGTH_LIMIT);
+        System.out.println(instagram.LENGTH_LIMIT);
 
         System.out.println("------------------------");
 
 //        Gaming gaming = new Gaming(); abstract class
 //        InAppPurchase inAppPurchase = new InAppPurchase(); interface
 
-        CydeoLearning cl = new CydeoLearning();
+        EACLearning cl = new EACLearning();
         cl.launch();
         cl.play();
         cl.purchase(3.00);

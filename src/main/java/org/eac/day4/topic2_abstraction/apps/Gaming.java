@@ -11,10 +11,10 @@ public abstract class Gaming extends App{
 
 }
 
-class CydeoLearning extends Gaming implements InAppPurchase {
+class EACLearning extends Gaming implements InAppPurchase {
     @Override
     public void launch() {
-        System.out.println("Launching Cydeo Learning...");
+        System.out.println("Launching EAC Learning...");
     }
 
     @Override
