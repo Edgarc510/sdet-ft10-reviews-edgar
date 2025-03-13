@@ -1,4 +1,4 @@
-package day4.topic3_polymorphism;
+package org.eac.day4.topic3_polymorphism;
 
 public abstract class Person {
     String name;
@@ -20,6 +20,9 @@ abstract class Employee extends Person{
     String jobTitle;
     double salary;
 
+    /**
+    Employee
+     */
     public Employee(String name, String jobTitle, double salary) {
         super(name);
         this.jobTitle = jobTitle;
@@ -37,11 +40,15 @@ abstract class Employee extends Person{
                 '}';
     }
 }
-
+/**
+ Interface
+ */
 interface CreateSmokeTest {
     void create();
 }
-
+/**
+ Tester
+ */
 final class Tester extends Employee implements CreateSmokeTest{
 
     public Tester(String name, String jobTitle, double salary) {

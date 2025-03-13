@@ -1,4 +1,4 @@
-package day4.topic3_polymorphism;
+package org.eac.day4.topic3_polymorphism;
 
 import java.util.ArrayList;
 import java.util.List;
