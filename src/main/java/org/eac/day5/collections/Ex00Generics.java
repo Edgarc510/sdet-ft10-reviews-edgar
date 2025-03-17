@@ -1,7 +1,4 @@
-package org.eac.day5;
-
-import java.util.List;
-import java.util.Map;
+package org.eac.day5.collections;
 
 public class Ex00Generics {
     public static void main(String[] args) {

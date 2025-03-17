@@ -1,4 +1,4 @@
-package org.eac.day5;
+package org.eac.day5.collections;
 
 import java.util.*;
 
@@ -73,12 +73,15 @@ public class Ex05Iterator {
 
         List<String> namesList = new ArrayList<>(Arrays.asList("Ahmed", "Ahmed", "Anna", "Emre", "Jane", "Ahmed", "Andrew", "Ahmed", "Ahmed", "Elizabeth", "Merve"));
 
-        Iterator<String> itNames = namesList.iterator();
+        Iterator <String> listOfNames = namesList.iterator();
 
-        while(itNames.hasNext()){
-            if(itNames.next().equals("Ahmed")){
-                itNames.remove();
+        while (listOfNames.hasNext()){
+            if(listOfNames.next().equals("Ahmed")){
+                listOfNames.remove();
             }
+        }
+        for (String newNamesList : namesList) {
+            System.out.println(newNamesList);
         }
 
         System.out.println(namesList);

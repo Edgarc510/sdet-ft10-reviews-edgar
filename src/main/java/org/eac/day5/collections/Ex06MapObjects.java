@@ -1,4 +1,4 @@
-package org.eac.day5;
+package org.eac.day5.collections;
 
 import java.util.*;
 
@@ -13,6 +13,7 @@ public class Ex06MapObjects {
         gradeScale.put('D', 60);
         gradeScale.put('Z', 1000);
         gradeScale.put('Z', 3000); // using put with a key that is already in the map, will update the value
+        gradeScale.put('E', null); //
 
         System.out.println(gradeScale);
 

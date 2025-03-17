@@ -1,4 +1,4 @@
-package org.eac.day5;
+package org.eac.day5.collections;
 
 import java.util.*;
 
@@ -11,6 +11,8 @@ public class Ex09Countries {
         countries.put("United States", new ArrayList<>(Arrays.asList("Chicago", "Dallas", "Irvine", "San Diego", "New York", "Philadelphia", "Madison")));
 
         System.out.println("MAP " + countries);
+        System.out.println("MAP " + countries.get("United States"));
+        System.out.println("MAP " + countries.get("United States").get(1));
 
         System.out.println("------------------------------------");
 

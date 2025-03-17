@@ -1,4 +1,4 @@
-package org.eac.day5;
+package org.eac.day5.collections;
 
 import java.util.*;
 
